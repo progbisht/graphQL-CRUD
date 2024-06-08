@@ -31,8 +31,8 @@ npm run dev
     review
     author
     authors
-    addBook,
-    updateBook,
+    addBook
+    updateBook
     deleteBook
     ```
 
