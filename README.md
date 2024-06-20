@@ -1,13 +1,14 @@
 # GraphQL Sever and CRUD Operations
 
-In this section I have implemeted the GraphQL server with the help of Node.js in order to work with the Queries and Mutations in GraphQL. As we all know that the GraphQL resolves one of the generic problem of overfetching and underfetching (usually encoundered while using REST API) as it provides only requested amount of data. It is also suitable for handling complex queries when the data are related to each other. 
+## Objective
+In this minor project, I have implemented the GraphQL server with the help of Node.js to work with the Queries and Mutations in GraphQL. As we all know GraphQL(runtime for APIs) resolves one of the generic problems of overfetching and underfetching (usually encountered while using REST API) as it provides only the requested amount of data. It fetches exactly the amount of data requested and is suitable for handling complex queries (aggregate data from multiple sources). 
 
 ## Dependencies
 - [Node] (Run the GraphQL server)
 - Apollo Server
 - GraphQL
 
-## Usage
+## Installation & Usage
 - Clone the repo
 ```
 git clone [repo name]
@@ -21,9 +22,9 @@ npm install
 npm run dev
 ```
 
-- After that Apollo Sandbox will apper where we can perform the CRUD operations.
+- After that Apollo Sandbox will appear where we can perform the CRUD operations.
 
-### Entrypoints and Resolvers
+### Entry points and Resolvers
     ```
     books
     book
@@ -37,8 +38,8 @@ npm run dev
     ```
 
 
-### Operations
-- Query server for fetching all or single Book/Reviews/Author (Review Author) or combined along with their properties
+### Description and Examples
+#### Query server for fetching all or single Book/Reviews/Author (Review Author) or combined along with their properties
 
 Syntax
 ```
@@ -92,7 +93,7 @@ query BookQuery{
 }
 ```
 
-- Query server for adding a new record
+#### Query server for adding a new record
 
 Syntax
 ```
